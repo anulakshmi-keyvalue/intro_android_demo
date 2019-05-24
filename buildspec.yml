@@ -9,9 +9,9 @@ version: 0.2
      # key: "value"
 
 phases:
-  #install:
-    #runtime-versions:
-      # name: version
+  install:
+    runtime-versions:
+      android: 28
       # name: version
     #commands:
       # - command
@@ -30,8 +30,8 @@ phases:
       # - command
 artifacts:
   files:
-    - 'app/build/outputs/apk/dev/debug/app-dev-debug.apk'
-    # - location
+    # - 'app/build/outputs/apk/dev/debug/app-dev-debug.apk'
+    - '**/*'
   #name: $(date +%Y-%m-%d)
   discard-paths: yes
   #base-directory: location
