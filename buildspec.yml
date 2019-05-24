@@ -23,7 +23,7 @@ phases:
   build:
     commands:
       - chmod +x ./gradlew
-      - ./gradlew assembleDevDebug
+      - ./gradlew assembleDebug
   #post_build:
     #commands:
       # - command
