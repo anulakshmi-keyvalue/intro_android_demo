@@ -11,6 +11,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
+      java: openjdk8
       android: 28
       # name: version
     #commands:
@@ -33,7 +34,7 @@ artifacts:
     # - 'app/build/outputs/apk/dev/debug/app-dev-debug.apk'
     - '**/*'
   #name: $(date +%Y-%m-%d)
-  discard-paths: yes
+  #discard-paths: yes
   #base-directory: location
 #cache:
   #paths:
